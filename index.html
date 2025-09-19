@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ResepKu</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 min-h-screen flex flex-col items-center p-6">
+  <header class="text-center mb-6 relative">
+    <h1 class="text-3xl font-bold text-green-700">🍲 ResepKu</h1>
+    <p class="text-gray-600">Simpan & Temukan resep favoritmu</p>
+  </header>
+
+  <main class="w-full max-w-3xl space-y-6">
+    <section id="recipes" class="grid grid-cols-1 sm:grid-cols-2 gap-4"></section>
+
+    <section class="bg-white rounded-2xl shadow p-4">
+      <h2 class="text-xl font-semibold mb-4">Tambah Resep Baru</h2>
+      <form id="form" class="space-y-3">
+        <input id="title" class="w-full border rounded p-2" placeholder="Judul Resep" required>
+        <textarea id="ingredients" class="w-full border rounded p-2" placeholder="Bahan (pisahkan koma)"></textarea>
+        <textarea id="steps" class="w-full border rounded p-2" placeholder="Langkah-langkah"></textarea>
+        <button type="submit" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg w-full">Simpan</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="mt-6 text-sm text-gray-500">&copy; 2025 ResepKu</footer>
+
+  <!-- Tambahkan script di sini -->
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+[
+{
+"id": "1",
+"title": "Nasi Goreng Spesial",
+"ingredients": ["Nasi", "Telur", "Bawang", "Kecap"],
+"steps": "Tumis bawang, masukkan nasi, tambahkan kecap, kocok telur lalu campur",
+"prepTime": "15 menit"
+}
+]
